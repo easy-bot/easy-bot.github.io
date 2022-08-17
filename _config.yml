@@ -122,17 +122,24 @@ theme: landscape
 
 ## or this:
 deploy:
-  type: git
+#  type: git
 #  message: [message]
-  repo:
+#  repo:
   # Either syntax is supported
-    github: 
-      url: git@github.com:easy-bot/easy-bot.github.io.git
-      branch: master
-    coding:
-      url: git@e.coding.net:ismjt/hexo-blog/hexo-blog.git
-      branch: master
-  extend_dirs: /
+#    github: 
+#      url: git@github.com:easy-bot/easy-bot.github.io.git
+#      branch: master
+#    coding:
+#      url: git@e.coding.net:ismjt/hexo-blog/hexo-blog.git
+#      branch: master
+  - type: git
+    repo: git@github.com:easy-bot/easy-bot.github.io.git
+    branch: master
+    extend_dirs: /
+  - type: git
+    repo: git@e.coding.net:ismjt/hexo-blog/hexo-blog.git
+    branch: master
+    extend_dirs: /
 #    - [extend directory]
 #    - [another extend directory]
 #  ignore_hidden:
