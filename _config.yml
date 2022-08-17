@@ -129,6 +129,9 @@ deploy:
     github: 
       url: git@github.com:easy-bot/easy-bot.github.io.git
       branch: master
+    coding:
+      url: git@e.coding.net:ismjt/hexo-blog/hexo-blog.git
+      branch: master
   extend_dirs: /
 #    - [extend directory]
 #    - [another extend directory]
