@@ -140,6 +140,9 @@ deploy:
     repo: git@e.coding.net:ismjt/hexo-blog/hexo-blog.git
     branch: master
     extend_dirs: /
+  - type: git
+    repo: git@e.coding.net:sxmz/hexo/hexo-blog.git
+    branch: master
 #    - [extend directory]
 #    - [another extend directory]
 #  ignore_hidden:
